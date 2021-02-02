@@ -90,6 +90,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "channels"
+version = "0.1.0"
+dependencies = [
+ "bytes",
+ "mini-redis",
+ "tokio",
+]
+
+[[package]]
 name = "chrono"
 version = "0.4.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -133,6 +142,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "hello-tokio"
+version = "0.1.0"
+dependencies = [
+ "mini-redis",
+ "tokio",
+]
+
+[[package]]
 name = "hermit-abi"
 version = "0.1.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -164,9 +181,9 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "libc"
-version = "0.2.84"
+version = "0.2.85"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1cca32fa0182e8c0989459524dc356b8f2b5c10f1b9eb521b7d182c03cf8c5ff"
+checksum = "7ccac4b00700875e6a07c6cde370d44d32fa01c5a65cdd2fca6858c479d28bb3"
 
 [[package]]
 name = "lock_api"
@@ -239,15 +256,6 @@ checksum = "5a33c1b55807fbed163481b5ba66db4b2fa6cde694a5027be10fb724206c5897"
 dependencies = [
  "socket2",
  "winapi",
-]
-
-[[package]]
-name = "my-redis"
-version = "0.1.0"
-dependencies = [
- "bytes",
- "mini-redis",
- "tokio",
 ]
 
 [[package]]
@@ -480,6 +488,15 @@ dependencies = [
  "cfg-if",
  "libc",
  "winapi",
+]
+
+[[package]]
+name = "spawning"
+version = "0.1.0"
+dependencies = [
+ "bytes",
+ "mini-redis",
+ "tokio",
 ]
 
 [[package]]

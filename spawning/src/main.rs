@@ -45,7 +45,7 @@ async fn process(socket: TcpStream, db: Db) {
             }
             Get(cmd) => {
                 // Get the lock for Db
-                let mut db = db.lock().unwrap();
+                let db = db.lock().unwrap();
 
                 if let Some(value) = db.get(cmd.key()) {
                     // `Frame::Bulk` expects data to be of type `Bytes`. This
