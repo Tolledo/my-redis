@@ -127,6 +127,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "echo-server"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
 name = "futures-core"
 version = "0.3.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -165,6 +172,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "61124eeebbd69b8190558df225adf7e4caafce0d743919e5d6b19652314ec5ec"
 dependencies = [
  "cfg-if",
+]
+
+[[package]]
+name = "io"
+version = "0.1.0"
+dependencies = [
+ "tokio",
 ]
 
 [[package]]

@@ -1,7 +1,9 @@
 [workspace]
 
 members = [
+    "echo-server",
     "hello-tokio",
+    "io",
     "spawning",
     "channels",
 ]
