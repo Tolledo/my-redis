@@ -143,6 +143,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "future"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
 name = "futures-core"
 version = "0.3.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -3,6 +3,7 @@
 members = [
     "echo-server",
     "framing",
+    "future",
     "hello-tokio",
     "io",
     "spawning",
